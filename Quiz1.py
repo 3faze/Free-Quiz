@@ -23,7 +23,7 @@ else:
 
 question3 = input("Whats my favourite color?: ")
 
-if question3 == "Yellow" or pergunta3 == "yellow":
+if question3 == "Yellow" or question3 == "yellow":
     print("Yes!")
     total = total + 1
     print("+1")
@@ -33,7 +33,7 @@ else:
 
 question4 = input("Whats my favourite food?: ")
 
-if question4 == "Pizza" or pergunta4 == "pizza":
+if question4 == "Pizza" or question4 == "pizza":
     print("Exactly!")
     total = total + 1
     print("+1")
